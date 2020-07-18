@@ -34,13 +34,15 @@ li {
 
 }
 
+ a:hover {
+  color: #CF073F !important; /* Sorry */
+}
+
 
 #tabs {
   color: #fff;
 }
-a:hover {
-  color: #CF073F !important; /* Sorry */
-}
+
 
 .navbar-text {
   font-size: 0.9rem;
