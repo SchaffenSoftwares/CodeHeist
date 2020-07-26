@@ -14,7 +14,7 @@
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 *{
     margin: 0;
@@ -30,11 +30,11 @@
   }
   .wrapper{
     width: 860px;
-    margin: 0 auto;
+    margin-left: auto;
     position: relative;
-    margin-left: 900px;
-    margin-top: -60px;
-    
+    margin-right: -35rem;
+    z-index: 1;
+
   }
   .wrapper ul{
     list-style: none;
@@ -68,33 +68,38 @@
     position: absolute;
   }
 
-  .one{
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 100px; 
+
+  .jumbotron{
+    background-color: #000;
   }
 
-  .two{
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 350px
+  .teamcard {
+    padding: 20px ;
+    background-color: #CF073F ;
+    margin:10px 30px;
+    color: #000;
   }
 
-  .three{
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 500px; 
-  }
 
-  .four{
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 700px;
-  }
 
-  .five{
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 900px;
-  }
-  
+.head{
+  font-weight: 900;
+  text-align: center;
+
+}
+.btn:hover {
+  background-color: #222224 !important;
+  color: #fff !important;
+}
+
+.button{
+  text-align: right;
+  padding-top: 15px;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  font-weight: 900;
+  padding: 5px 50px;
+}
